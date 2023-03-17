@@ -1,13 +1,18 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
+
 /**
  * main - last digit of a number
  *
  * Return: 0 (success)
  */
+
 int main(void)
 {
+
 	int n, lastd;
 
 	srand(time(0));
