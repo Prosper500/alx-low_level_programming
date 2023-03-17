@@ -1,13 +1,18 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
+
+
 /**
  * main - program printing random number
- *
  * Return: (success)
+ *
  */
 
 int main(void)
+
 {
 	int n, lastd;
 
