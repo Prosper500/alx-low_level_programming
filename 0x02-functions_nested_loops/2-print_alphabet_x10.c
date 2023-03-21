@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - A program that print alpjabet x10
  *
@@ -7,16 +7,16 @@
 
 int main(void)
 {
-	char low;
+	char ch;
 	int i = 0;
 
 	while (i < 9)
 	{
-	for (low = 'a'; low <= 'z'; low++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(low);
+		_putchar(ch);
 	}
-	putchar('\n');
+	_putchar('\n');
 	i++;
 	}
 	return (0);
