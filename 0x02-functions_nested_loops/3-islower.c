@@ -2,7 +2,7 @@
 /**
  * _islower - A function that dictate a lowercase
  *
- * Return: 0 (Success)
+ * Return: Always 0
  */
 
 int _islower(int c)
