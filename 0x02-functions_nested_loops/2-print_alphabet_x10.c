@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main - A program that print alpjabet x10
+ * print_alphabet_x10 - A program that print alpjabet x10
  *
- * Return: (Success)
+ * Return: void
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i = 0;
@@ -14,10 +14,9 @@ int main(void)
 	{
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		_putchar(ch);
+	_putchar(ch);
 	}
 	_putchar('\n');
 	i++;
 	}
-	return (0);
 }
