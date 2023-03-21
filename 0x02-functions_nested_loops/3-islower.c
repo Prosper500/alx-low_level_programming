@@ -1,20 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - A function that dictate a lowercase
+ * _islower - A function that dictate a lowercase
  *
  * Return: 0 (Success)
  */
 
-int main(void)
+int _islower(int c)
 {
-	int r;
-
-	r = _islower('H');
-	_putchar(r + '0');
-	r = _islower('o');
-	_putchar(r + '0');
-	r = _islower(108);
-	-putchar(r + '0');
-	_putchar('\n');
+	if (c >= 97 && c <= 122)
+	{
+	return (1);
+	}
 	return (0);
 }
