@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - A funcrion that reset the value of n to 98
- * @*n: the check value
+ * @n: the check value
  *
  * Return: void
  */
