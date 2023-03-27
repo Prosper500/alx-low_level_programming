@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * peint_rev - A function that print in reverse
+ * print_rev - A function that print in reverse
  * @s: the string to print
  *
  * Return: void
