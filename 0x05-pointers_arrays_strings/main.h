@@ -1,7 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <unistd.h>
 
-int _putchar(char c);
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
