@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * reverse_array - Function that reverse an array of integer
  * @a: array of numbers
@@ -15,4 +16,5 @@ void reverse_array(int *a, int n)
 		k = a[j];
 		a[j] = a[n];
 		a[n] = k;
+	}
 }
