@@ -5,6 +5,7 @@
  * @s: poiter destination
  * @b: byte constant
  * @n: byte to fill
+ * Return: Character
  */
 
 char *_memset(char *s, char b, unsigned int n)
