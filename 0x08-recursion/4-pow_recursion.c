@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math>
 
 /**
  * _pow_recursion - A funcrion that return power value.
