@@ -15,6 +15,6 @@ int main(int argc, char *argv[])
 
 	if (c < argc)
 	printf("%s\n", argv[c]);
-	
+
 	return (0);
 }
