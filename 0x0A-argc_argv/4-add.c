@@ -12,25 +12,26 @@
 
 int main(int argc, char *argv[])
 {
-	int i, sum = 0, b;
+	char *g;
+	int i;
+	unsigned int sum = 0, b;
 
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			for (b = 1; b < argc; b++ )
+			g = argv[i];
+
+			for (b = 0; b < strlen(g); b++)
 			{
-			if (isdigit(argv[i]))
-			{
-				continue;
+				if (g[b] < 48 || g[b] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
-			}
-			sum += atoi(argv[i]);
+			sum += atoi(g);
+			g++;
 		}
 		printf("%d\n", sum);
 	}
