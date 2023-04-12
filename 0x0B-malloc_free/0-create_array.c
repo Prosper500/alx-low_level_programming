@@ -17,7 +17,10 @@ char *create_array(unsigned int size, char c)
 	{
 		z[i] = c;
 	}
+	z[i] = '\0';
 	return (z);
-	if (size == 0 || z == 0)
+	if (size == 0)
 	return (NULL);
+	if (z == NULL)
+	return (0);
 }
