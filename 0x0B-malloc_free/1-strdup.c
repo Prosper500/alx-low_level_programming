@@ -11,7 +11,7 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int i = 0, j= 0;
+	unsigned int i = 0, j = 0;
 	char *dupli;
 
 	while (str == NULL)
