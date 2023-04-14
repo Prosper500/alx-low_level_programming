@@ -35,13 +35,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		lent2 = n;
 	}
-	z = (char *) malloc(sizeof(char) * (lent1 + lent2 + 1));
+	z = malloc(sizeof(char) * (lent1 + lent2 + 1));
 	if (z == NULL)
 		return (NULL);
 	for (a = 0; a < lent1; a++)
 		z[a] = s1[a];
 	for (a = 0; a < lent2; a++)
-		z[lent1 + lent2] = s2[a];
+		z[a + lent2] = s2[a];
 	z[lent1 + lent2] = '\0';
 	return (z);
 }
