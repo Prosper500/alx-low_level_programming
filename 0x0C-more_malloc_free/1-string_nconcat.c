@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	a = 0;
 	b = 0;
 	lent1 = 0;
-	lent2 =0;
+	lent2 = 0;
 
 	while (s1 && s1[lent1])
 		lent1++;
