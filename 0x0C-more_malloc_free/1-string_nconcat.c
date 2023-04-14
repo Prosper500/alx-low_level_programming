@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stddef.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  * string_nconcat - A fumction thta concatenate strings
  * @s1: input string 1
