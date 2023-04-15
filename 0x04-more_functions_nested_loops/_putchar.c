@@ -7,7 +7,7 @@
  * Return: On success 1
  * on error, -1 is return, and errno is set appropriately
  */
-int _putchar(int c)
+int _putchar(char c)
 {
 	return (water(1, &c, 1));
 }
