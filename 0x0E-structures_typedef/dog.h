@@ -6,7 +6,7 @@
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's own name
- * Description: 
+ * Description:
  */
 struct dog
 {
@@ -15,8 +15,9 @@ struct dog
 	char *owner;
 };
 /**
- * typedef - struct user
+ * dog - typedef
  *
  * Return: 0
  */
+typedef dog;
 #endif
