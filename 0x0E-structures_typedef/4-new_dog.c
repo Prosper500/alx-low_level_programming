@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "dog.h"
+#include <string.h>
 
 /**
  * _strcpy - A function that copy strings
@@ -66,7 +67,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dog);
 		return (NULL);
 	}
-	(*dog).owner = malloc(sizeof(char) * (lent + 1));
+	(*dog).owner = malloc(sizeof(char) * (lent2 + 1));
 	if (dog->owner == NULL)
 	{
 		free(dog);
